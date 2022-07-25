@@ -3,13 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Panda Commerce</title>
+    <title>kitten's World</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <!-- bootstrap css link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <!-- local css link -->
     <link
       rel="stylesheet"
       href="style.css
@@ -17,8 +20,9 @@
     />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg pt-0">
+    <header class="container">
+      <!-- =====================starts Navbar ============================-->
+      <nav class="navbar navbar-expand-lg pt-0 mb-4">
         <div class="container">
           <a class="navbar-brand" href="#"
             ><img src="images/logo.png" alt=""
@@ -44,7 +48,174 @@
           </div>
         </div>
       </nav>
+      <!-- =====================ends Navbar============================== -->
+
+      <!-- ==============================stars slider============================== -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner w-100">
+          <!-- persian cat -->
+          <div class="carousel-item active px-5 py-2 border rounded">
+            <div class="row">
+              <div class="col-lg-7 d-flex align-items-center ps-5">
+                <div>
+                  <h2>Peaceful Persian Cat</h2>
+                  <p>
+                    Persian Cats are known for their gentle, quiet, docile
+                    nature. They are very sweet cats, but can be discriminating
+                    in their affection, only giving their attention to people
+                    they trust.
+                  </p>
+                  <h1>12,000Tk</h1>
+                  <div class="btn btn-warning">Buy Now</div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img
+                  src="images/cats/persian cats.jpg"
+                  class="d-block img-fluid border rounded-4"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <!-- maine coon cat -->
+          <div class="carousel-item px-5 py-2 border rounded">
+            <div class="row">
+              <div class="col-lg-7 d-flex align-items-center ps-5">
+                <div>
+                  <h2>Magical Maine Coon</h2>
+                  <p>
+                    Maine Coon cats have an affectionate nature and are very
+                    playful and friendly. They enjoy human company and this
+                    makes them excellent companions for someone who enjoys
+                    sharing their home with such an enormous cat.
+                  </p>
+                  <h1>35,000Tk</h1>
+                  <div class="btn btn-warning">Buy Now</div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img
+                  src="images/cats/maine coon.jpg"
+                  class="d-block img-fluid border rounded-4"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <!-- siberian cat -->
+          <div class="carousel-item px-5 py-2 border rounded">
+            <div class="row">
+              <div class="col-lg-7 d-flex align-items-center ps-5">
+                <div>
+                  <h2>Sporty Siberian Cat</h2>
+                  <p>
+                    Siberian cats have gentle, loving nature and well rounded
+                    personality. They adore children, readily accept the other
+                    household pets and get along great with the whole family.
+                  </p>
+                  <h1>20,000Tk</h1>
+                  <div class="btn btn-warning">Buy Now</div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img
+                  src="images/cats/siberian cat.jpg"
+                  class="d-block img-fluid border rounded-4"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <!-- bengal cat -->
+          <div class="carousel-item px-5 py-2 border rounded">
+            <div class="row">
+              <div class="col-lg-7 d-flex align-items-center ps-5">
+                <div>
+                  <h2>Beautiful Bengal Cat</h2>
+                  <p>
+                    While many people consider the Bengal to be a wild cat that
+                    only pretends to be domesticated, the breed is actually very
+                    sweet and loving. The Bengal attaches closely to her people
+                    and is a loyal friend.
+                  </p>
+                  <h1>18,000Tk</h1>
+                  <div class="btn btn-warning">Buy Now</div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img
+                  src="images/cats/bengal cat.jpg"
+                  class="d-block img-fluid border rounded-4"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- ===============================end slider==================== -->
     </header>
+    <!-- =======================Main Starts========================== -->
+    <main>
+      <!-- categories starts -->
+      <div class="container overflow-hidden text-center my-5">
+        <div class="row gx-5">
+          <!-- category 1 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="p-3 border card-items d-flex align-items-center justify-content-around border rounded-3"
+            >
+              <h1>Food</h1>
+              <img src="images/categories/watch.png" alt="" />
+            </div>
+          </div>
+          <!-- category 2 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="p-3 border card-items d-flex align-items-center justify-content-around border rounded-3"
+            >
+              <h1>Toys</h1>
+              <img src="images/categories/watch.png" alt="" />
+            </div>
+          </div>
+          <!-- category 3 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="p-3 border card-items d-flex align-items-center justify-content-around border rounded-3"
+            >
+              <h1>Goods</h1>
+              <img src="images/categories/watch.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- categories ends -->
+    </main>
+    <!-- ========================Main ends======================== -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
