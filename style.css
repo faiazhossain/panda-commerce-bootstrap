@@ -1,0 +1,13 @@
+:root {
+  --light: #ffe6e6;
+  --pinkish: #ffc4c4;
+  --primary: #ff869e;
+  --secondary: #a10035;
+}
+
+.navbar .container-fluid {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+  background-color: var(--light);
+}
